@@ -2,8 +2,6 @@ FROM ubuntu:15.10
 MAINTAINER hibiu1
 
 # noninteractive mode
-# 文字化け対策
-# http://qiita.com/tailak/items/77b90a4df07e4f6a1fc2
 ENV \
   DEBIAN_FRONTEND=noninteractive
 
